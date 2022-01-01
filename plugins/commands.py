@@ -34,7 +34,7 @@ async def start(bot, cmd):
                                 InlineKeyboardButton("🍎 Join Channel", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🍎 Refresh", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🍎  Refresh", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
