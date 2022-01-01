@@ -100,10 +100,6 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Close", callback_data="Close")
-                    ],
-                    [
-                        InlineKeyboardButton("About", callback_data="about")
                     ]
                 ]
             )
