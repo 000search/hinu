@@ -93,7 +93,7 @@ async def start(bot, cmd):
         )
     else:
         await cmd.reply_text(
-            START_MSG,
+            START_MSG = """<b>@cinema_kotaka..!</b>"""
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
