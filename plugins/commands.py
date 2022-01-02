@@ -93,7 +93,7 @@ async def start(bot, cmd):
                     ]       
                 ]
             )
-       )
+        )
            
     else:
         await cmd.reply_text(
