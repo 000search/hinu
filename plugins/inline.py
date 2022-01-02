@@ -16,7 +16,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You Need To Join Our Channel and Press Refresh Button to get the file\n🍎ഫയലുകൾ ലഭിക്കുന്നതിനായി നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ join ചെയ്യണം\n🍎 ശേഷം refresh button അമർത്തുക',
+                           switch_pm_text='You Need To Join Our Channel ഫയലുകൾ ലഭിക്കുന്നതിനായി നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ join ചെയ്യണം',
                            switch_pm_parameter="subscribe")
         return
 
