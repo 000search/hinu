@@ -89,9 +89,12 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Join Channel", url=invite_link.invite_link)
                     ],
                     [
+                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
+                    ]       
                 ]
             )
-        )
+       )
+           
     else:
         await cmd.reply_text(
             START_MSG,
