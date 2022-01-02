@@ -87,7 +87,8 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Join Channel", url=invite_link.invite_link)
-                    ]
+                    ],
+                    [
                 ]
             )
         )
