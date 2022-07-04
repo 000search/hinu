@@ -102,7 +102,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Channel", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Join Channel", url=invite_link.invite_link)
                      ],
                      [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
