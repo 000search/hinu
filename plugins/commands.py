@@ -85,7 +85,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("Join Channel", url=https://t.me/+4WdWpx5c8k80OTU1)
                     ],
                     [
                         InlineKeyboardButton("Search again", switch_inline_query_current_chat=''),
