@@ -102,6 +102,9 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
+                        InlineKeyboardButton("Join Channel", switch_inline_query_current_chat=''),
+                     ],
+                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                     ]
                 ]
